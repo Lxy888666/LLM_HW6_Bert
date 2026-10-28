@@ -1,0 +1,26 @@
+# Python cache and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.vscode/
+.idea/
+
+# Generated processed data
+data/processed/
+
+# Generated model, evaluation and prediction artifacts
+outputs/
+
+# Temporary and editor files
+*.log
+*.tmp
+*.bak
+~$*
